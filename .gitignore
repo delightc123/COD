@@ -1,0 +1,26 @@
+node_modules/
+
+# Build output
+dist/
+playable-snapshot/
+perf-candidate/
+perf-cand2/
+
+# Capture output — 780 MB of PNGs. Regenerate with tools/baseline.mjs.
+shots/
+
+# Agent scratch
+demo/
+.tmp-demo/
+.tmp-rend/
+revcrops/
+
+# Context references
+.context/
+.context/claude-of-duty/
+
+# Memory system & agent orchestration
+.memory/
+memory.md
+AGENTS.md
+.rules/

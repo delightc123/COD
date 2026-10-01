@@ -1,0 +1,27 @@
+{
+  "name": "cod",
+  "version": "1.0.0",
+  "description": "COD — 3D Browser Tactical FPS built with Three.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "shot": "node tools/capture.mjs"
+  },
+  "author": "Delight Chukwu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/delightc123/COD"
+  },
+  "homepage": "https://github.com/delightc123/COD",
+  "type": "module",
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1",
+    "pngjs": "^7.0.0",
+    "vite": "^7.3.6"
+  }
+}
